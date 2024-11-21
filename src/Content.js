@@ -1,7 +1,4 @@
-// import images
-import kuzan1 from "./assets/images/Me/Kuzan1.png";
 import zoro2 from "./assets/images/Me/Zoro2.png";
-import zoro3 from "./assets/images/Me/zoro3.jpg";
 import zoro1 from "./assets/images/Me/Zoro1.png";
 import figma from "./assets/images/Skills/figma.png";
 import spring from "./assets/images/Skills/spring.jpg";
@@ -13,32 +10,27 @@ import docker from "./assets/images/Skills/docker.png";
 import spring_security from "./assets/images/Skills/spring-security.jpg";
 import java from "./assets/images/Skills/java.png";
 import hibernate from "./assets/images/Skills/hibernate.png";
-
 import reactjs from "./assets/images/Skills/react.png";
-// import mysql from "./assets/images/Skills/mysql.png";
-// import sqlserver from "./assets/images/Skills/sqlserver.jpg";
-// import github from "./assets/images/Skills/github.jpg";
-// import mongodb from "./assets/images/Skills/mongodb.jpg";
-// import docker from "./assets/images/Skills/docker.png";
-// import spring_security from "./assets/images/Skills/spring-security.jpg";
-// import java from "./assets/images/Skills/java.png";
-// import hibernate from "./assets/images/Skills/hibernate.png";
-
+import html5 from "./assets/images/Skills/html5.jpg";
+import jquery from "./assets/images/Skills/jquery.png";
+import js from "./assets/images/Skills/js.jpg";
+import material_ui from "./assets/images/Skills/material-ui.png";
+import redux from "./assets/images/Skills/redux.png";
+import tailwind from "./assets/images/Skills/tailwind.png";
+import vscode from "./assets/images/Skills/vscode.jpg";
+import charka from "./assets/images/Skills/charka-ui.png";
+import bootstrap5 from "./assets/images/Skills/bootstrap5.webp";
+import css3 from "./assets/images/Skills/css.jpg";
+import intelliJ from "./assets/images/Skills/intelliJ.png";
+import eclipse from "./assets/images/Skills/eclipse.jpg";
 import google_solution_challange from "./assets/images/Certificate/google-solution-challange.png";
 import toeic from "./assets/images/Certificate/toeic.png";
-import services_logo3 from "./assets/images/Certificate/logo3.png";
-
+import hackathon from "./assets/images/Activities/hackathon.jpg";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
 
-import hackathon from "./assets/images/Activities/hackathon.jpg";
-
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
-
-// import icons from react-icons
+//icon
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
@@ -82,7 +74,7 @@ export const content = {
       skills_content: [
         // Backend Skills
         { name: "Java", logo: java, classification: "Backend" },
-        { name: "Spring Boot", spring: null, classification: "Backend" },
+        { name: "Spring Boot", logo: spring, classification: "Backend" },
         { name: "Spring Security", logo: spring_security, classification: "Backend" },
         { name: "MySQL", logo: mysql, classification: "Backend" },
         { name: "MSSQL", logo: sqlserver, classification: "Backend" },
@@ -93,25 +85,25 @@ export const content = {
         // { name: "JUnit", logo: null, classification: "Backend" },
   
         // Frontend Skills
-        { name: "HTML5", logo: null, classification: "Frontend" },
-        { name: "CSS3", logo: null, classification: "Frontend" },
-        { name: "JavaScript", logo: null, classification: "Frontend" },
-        { name: "TypeScript", logo: null, classification: "Frontend" },
+        { name: "HTML5", logo: html5, classification: "Frontend" },
+        { name: "CSS3", logo: css3, classification: "Frontend" },
+        { name: "JavaScript", logo: js, classification: "Frontend" },
         { name: "React", logo: reactjs, classification: "Frontend" },
-        { name: "Redux", logo: null, classification: "Frontend" },
-        { name: "Bootstrap5", logo: null, classification: "Frontend" },
-        { name: "jQuery", logo: null, classification: "Frontend" },
-        { name: "Tailwind CSS", logo: null, classification: "Frontend" },
-        { name: "Material-UI", logo: null, classification: "Frontend" },
-        { name: "Chakra UI", logo: null, classification: "Frontend" },
+        { name: "Redux", logo: redux, classification: "Frontend" },
+        { name: "Bootstrap5", logo: bootstrap5, classification: "Frontend" },
+        { name: "jQuery", logo: jquery, classification: "Frontend" },
+        { name: "Figma", logo: figma, classification: "Frontend" },
+        { name: "Tailwind CSS", logo: tailwind, classification: "Frontend" },
+        { name: "Material-UI", logo: material_ui, classification: "Frontend" },
+        { name: "Chakra UI", logo: charka, classification: "Frontend" },
   
         // Version Control
         { name: "GitHub", logo: github, classification: "Version Control" },
   
         // IDEs
-        { name: "IntelliJ IDEA", logo: null, classification: "IDE" },
-        { name: "VS Code", logo: null, classification: "IDE" },
-        { name: "Eclipse", logo: null, classification: "IDE" },
+        { name: "IntelliJ IDEA", logo: intelliJ, classification: "IDE" },
+        { name: "VS Code", logo: vscode, classification: "IDE" },
+        { name: "Eclipse", logo: eclipse, classification: "IDE" },
   
         // Other
         { name: "Scrum", logo: null, classification: "Other" },

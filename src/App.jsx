@@ -10,6 +10,7 @@ import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
+import CustomCursor from "./components/CustomCursor";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
   }, []);
   return (
       <div className="">
+        <CustomCursor />
         <Navbar />
         <Hero />
         <Projects />
